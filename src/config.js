@@ -187,7 +187,7 @@ const config = {
         {
           left: "iview-book-admin - 图书管理系统",
           right:
-            '<a href="https://github.com/cosyer/iview-book-admin" target="_blank">Link</a> ' +
+            '<a href="http://book.mydearest.cn/public/web/index.html" target="_blank">Link</a> ' +
             '<a href="https://github.com/cosyer/iview-book-admin" target="_blank">Source</a>',
           showDot: false,
           blod: true
