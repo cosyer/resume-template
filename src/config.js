@@ -16,7 +16,7 @@ const config = {
    * 默认值为: 张xx(小张)的个人简历 - 搬砖工程师
    * 即默认会展示你的姓名，昵称，职位字段
    */
-  description: "陈宇（cosyer）的个人简历 - Web前端工程师",
+  description: "陈宇（cosyer）的个人简历 - 前端工程师",
   /**
    * 生成PDF的默认文件名
    * 若不指定，默认为HTML页面的title去除空格后的结果
@@ -58,7 +58,7 @@ const config = {
     nickName: "cosyer",
     // 意向的工作
     // 建议不超过8个字
-    job: "Web前端开发工程师",
+    job: "前端开发工程师",
     /**
      * 简介栏
      * 最多可以有三个
@@ -115,133 +115,87 @@ const config = {
      * content: 里面的内容，需要注意的是每一条内容都会换行
      */
     {
-      title: "实践经历",
+      title: "专业技能",
       content: [
-        /**
-         * 文章正文部分
-         * left, right: 需要显示的文字，支持 b, i, a 等一切html标签，请自由配置
-         * 同时提供以下几种样式配置方法
-         * showDot：是否展示该段文字左边的小点。如果显示的话，这段文字将会往右缩进一丢丢
-         * blod: 该段文字是否加粗。注意，加粗后会有一点点上边距（一般情况下blod的行用于小标题）
-         * 由于HTML的解析特性，如果想同时显示多个空格，请使用&nbsp
-         */
         {
-          left: "南京富士通南大软件技术有限公司 · 前端开发",
-          right: "2018.09-至今",
-          showDot: false,
-          blod: true
-        },
-        {
-          left: `<strong>负责社内私有云项目需求研发、UI 改善、公共组件封装、项目性能优化、前端人员技术面试；</strong>`,
+          left:
+            "熟练使用<em> HTML5+CSS3 </em>进行页面样式布局，具备扎实的<em> javascript </em>基础；",
           right: "",
           showDot: true
         },
         {
-          left: `<strong>外派参与华为云 DDS(文档型数据库)和多模 Nosql 数据库 Geminidb 控制台项的开发工作。</strong>`,
+          left:
+            "熟练使用<em>React+AntDesign</em>，<em>Vue+ElementUI</em>，<em>Angular</em>等框架开发中后台业务系统；",
           right: "",
           showDot: true
         },
         {
-          left: "江苏千米网络科技股份有限公司 · 前端开发",
-          right: "2017.08-2018.8",
-          showDot: false,
-          blod: true
-        },
-        {
-          left: `<strong>负责 e 家政 PC 端管理系统和家政加 APP 的前端开发工作，以及上线后功能的迭代与优化；</strong>`,
+          left:
+            "熟悉<em> ES6 </em>新特性，了解<em> TypeScript </em>以及运用<em> Node.js（Express、Koa2）</em>搭建后台服务；",
           right: "",
           showDot: true
         },
         {
-          left: `<strong>参与 c 端小程序和公众号 H5 页面的维护和开发。</strong>`,
+          left:
+            "了解<em> Java </em>语言以及<em>MySQL</em>、<em>MongoDB</em>等数据库，运用<em> spring-boot </em>框架开发后台接口；",
           right: "",
           showDot: true
         },
         {
-          left: "重庆新媒农信科技有限公司 · java web开发",
-          right: "2016.06-2017.7",
-          showDot: false,
-          blod: true
-        },
-        {
-          left: `<strong>负责公司官网页面的重构和维护；</strong>`,
+          left:
+            "熟悉使用<em> Git </em>进行版本控制和代码托管、<em>Markdown</em>进行文档编写；",
           right: "",
           showDot: true
         },
         {
-          left: `<strong>搭建项目架构，前后台分离开发。同时编写后台接口填补页面交互逻辑；</strong>`,
+          left:
+            "熟悉前后端分离的开发模式，<em>Webpack</em>等项目构建管理开发工具",
           right: "",
           showDot: true
         },
         {
-          left: `<strong>学习了开发基础知识和规范的项目流程，实现了从新人到 IT 入门的转变。</strong>`,
+          left:
+            "了解常用的<em> Linux </em>命令，熟悉项目常规开发流程、开发调试技巧、发布部署步骤；",
+          right: "",
+          showDot: true
+        },
+        {
+          left:
+            "能够科学上网，独立解决问题。遵守开发规范，有良好的文档阅读能力和代码编写习惯。",
           right: "",
           showDot: true
         }
       ]
     },
-
     {
       title: "个人作品",
       content: [
         {
-          left: "cosyer's 博客",
+          left: "blog - cosyer's 博客",
           right:
             '<a href="https://mydearest.cn" target="_blank">Link</a> ' +
-            '<a href="https://github.com/stavyan/stav-zone" target="_blank">Source</a> ',
+            '<a href="https://github.com/cosyer/blog" target="_blank">Source</a> ',
           showDot: false,
           blod: true
         },
         {
           left:
-            "自2018年8月起，使用 NodeJS + Pug + MongoDB 搭建个人博客系统，并部署在自购服务器上，且为其解析域名配置Nginx服务器。期间在此写写博客或者收藏一些干货。在此次开发过程中，并收获了一定的全栈开发经验。",
+            "自2018年6月起，使用 <em>hexo + next</em> 搭建个人博客，对主题进行了样式优化和个人定制，并部署在云服务器上为其解析域名配置Nginx服务器等。秉持着<em>有输入就要有输出</em>的观点，在此写写博客或者收藏一些干货。",
           right: "",
           showDot: true
         },
         {
-          left: "vue-music - 基于 Vue2.x 的移动音乐播放器",
+          left: "iview-book-admin - 图书管理系统",
           right:
-            '<a href="https://stavyan.github.io/vue-music-stav/dist/#/recommend" target="_blank">Link</a> ' +
-            '<a href="https://github.com/stavyan/vue-music-stav" target="_blank">Source</a>',
+            '<a href="https://github.com/cosyer/iview-book-admin" target="_blank">Link</a> ' +
+            '<a href="https://github.com/cosyer/iview-book-admin" target="_blank">Source</a>',
           showDot: false,
           blod: true
         },
         {
           left:
-            "VueJS是目前掌握程度较好且项目经验较多的一个前端框架。" +
-            "该项目基于Vue2.x与Vue全家桶开发的项目，数据接口皆来源于网络，实现了歌曲播放、歌曲搜索、歌曲排行等功能。" +
-            "由于是初学VueJS时的项目，在开发的过程也碰过许多坑，例如axios请求数据、项目打包等。" +
-            "也正是那些踩过的坑，才能使我们开发修行之路走得更稳更踏实。",
-          right: "",
-          showDot: true
-        },
-        {
-          left: "flask-movie-stav - Python+Flask+Mysql 开发微电影网站",
-          right:
-            '<a href="http://132.232.19.246:5001/1/" target="_blank">Link</a> ' +
-            '<a href="https://github.com/stavyan/flask-movie-stav" target="_blank">Source</a>',
-          showDot: false,
-          blod: true
-        },
-        {
-          left:
-            "为了学习Python Web，于是从轻量型的Flask框架下手，搭建了这个微电影网站。" +
-            "该项目属于前后端不分离项目，主要分为用户端、后台管理和服务端。" +
-            "期间踩过一些坑，学到了Python Web项目的整个开发流程，后续会继续完善网站的其他功能。",
-          right: "",
-          showDot: true
-        },
-        {
-          left: "stickyNotes - 基于原生JavaScript的随手便笺（单页面应用）",
-          right:
-            '<a href="https://stavyan.github.io/stickyNotes/" target="_blank">Link</a> ' +
-            '<a href="https://github.com/stavyan/stickyNotes" target="_blank">Source</a> ',
-          showDot: false,
-          blod: true
-        },
-        {
-          left:
-            "基于原生JavaScript开发的一个可拖拽的便签（stickyNotes）练手小项目，实现了创建、移动标签，将创建的标签及内容缓存至本地等基础功能。",
+            "该项目基于<em>iview-admin</em>与Vue全家桶开发的项目，后台接口采用了<em>eggjs+mongodb</em>，实现了读者管理、图书管理、借阅管理等功能。" +
+            "为了方便对项目组采购的图书进行管理以及借阅记录的查看，基于iview-admin模板进行二次开发，高效地完成了图书管理需求，获得了组内的一致好评。",
           right: "",
           showDot: true
         },
@@ -253,24 +207,23 @@ const config = {
         },
         {
           left:
-            '<a href="https://github.com/stavyan/spider-stav" target="_blank">基于 Python Scrapy 库的爬虫Demo</a> ' +
-            "在使用 Python + Selenium + Chrome 进行自动化爬取数据的过程中存在问题，后在Python的学习中发现更加强大的爬虫库 Scrapy，于是有了以上几个爬虫小Demo。所以只能说所知甚少,唯善学。",
+            '<a href="https://github.com/cosyer/nodeFileUploadDemo" target="_blank">Node 实现大文件分片上传、断点续传</a> ' +
+            "在日常开发中遇到大文件上传速度缓慢，容易断开连接的问题，于是便有了这个Demo，学习了文件的分片上传，断点续传的流程。",
           right: "",
           showDot: true
         },
         {
           left:
-            '<a href="https://github.com/stavyan/Android" target="_blank">基于 Java 开发Android应用的Demo</a> ' +
-            "主要使用Java进行开发的几个Android应用，曾使用多个开源库和第三方SDK进行开发，毕设作品也在其中。",
+            '<a href="http://dir.mydearest.cn/motion/" target="_blank">基于 antd motion 开发的个人网站</a> ' +
+            "它是我第一个独立完成的前后端分离的个人项目，基于<em> react + dva + antd </em>实现了内容展示、权限管理、文件上传等功能。",
           right: "",
           showDot: true
         },
         {
           left:
-            '<a href="https://github.com/stavyan/stav-gitbook" target="_blank">基于 gitbook 使用markdown总结归纳自己的博客</a><br/ >' +
-            "出于博客总结归纳的想法，于是找到了 GitBook，我想把它做为博客的备份。顺带学习了 GitBook用法，于是有了这个小demo。",
-          right:
-            '<a href="https://www.stavtop.club/stavblog" target="_blank">Link</a>',
+            '<a href="http://dir.mydearest.cn/vue-answer/#/" target="_blank">问答项目</a> ' +
+            "为了学习<em> vue + vuex </em>状态存储的练手项目，实现了倒计时答题，排行榜等功能。",
+          right: "",
           showDot: true
         }
       ]
@@ -287,6 +240,75 @@ const config = {
      * content: 里面的内容，需要注意的是每一条内容都会换行
      */
     {
+      title: "实践经历",
+      content: [
+        /**
+         * 文章正文部分
+         * left, right: 需要显示的文字，支持 b, i, a 等一切html标签，请自由配置
+         * 同时提供以下几种样式配置方法
+         * showDot：是否展示该段文字左边的小点。如果显示的话，这段文字将会往右缩进一丢丢
+         * blod: 该段文字是否加粗。注意，加粗后会有一点点上边距（一般情况下blod的行用于小标题）
+         * 由于HTML的解析特性，如果想同时显示多个空格，请使用&nbsp
+         */
+        {
+          left:
+            "<a href='https://www.fujitsu.com/cn/group/fnst/' target='_blank'>南京富士通南大软件技术有限公司</a> · 前端开发",
+          right: "2018.09-至今",
+          showDot: false,
+          blod: true
+        },
+        {
+          left: `<strong>负责社内私有云项目需求研发、UI 改善、公共组件封装、项目性能优化、前端人员技术面试；</strong>`,
+          right: "",
+          showDot: true
+        },
+        {
+          left: `<strong>外派参与华为云 DDS(文档型数据库)和多模 Nosql 数据库 Geminidb 控制台项目的开发工作。</strong>`,
+          right: "",
+          showDot: true
+        },
+        {
+          left:
+            "<a href='https://www.qianmi.com/' target='_blank'>江苏千米网络科技股份有限公司</a> · 前端开发",
+          right: "2017.08-2018.8",
+          showDot: false,
+          blod: true
+        },
+        {
+          left: `<strong>负责 e 家政 PC 端管理系统和家政加 APP 的前端开发工作，以及上线后功能的迭代与优化；</strong>`,
+          right: "",
+          showDot: true
+        },
+        {
+          left: `<strong>参与 c 端小程序和公众号 H5 页面的维护和开发。</strong>`,
+          right: "",
+          showDot: true
+        },
+        {
+          left:
+            "<a href='http://www.aminfo.com.cn/' target='_blank'>重庆新媒农信科技有限公司</a> · java web开发",
+          right: "2016.06-2017.7",
+          showDot: false,
+          blod: true
+        },
+        {
+          left: `<strong>负责公司官网页面的重构和维护；</strong>`,
+          right: "",
+          showDot: true
+        },
+        {
+          left: `<strong>搭建项目架构，前后台分离开发。编写后台接口填补页面交互逻辑；</strong>`,
+          right: "",
+          showDot: true
+        },
+        {
+          left: `<strong>学习开发基础知识和规范的项目流程，实现从新人到IT入门的转变。</strong>`,
+          right: "",
+          showDot: true
+        }
+      ]
+    },
+    {
       title: "项目经验",
       content: [
         /**
@@ -298,105 +320,98 @@ const config = {
          * 由于HTML的解析特性，如果想同时显示多个空格，请使用&nbsp
          */
         {
-          left: "Node 实现大文件分片上传、断点续传",
+          left: "社内私有云 FOne HCI 超融合 · React 全家桶 + patternfly-react",
+          right: "",
+          showDot: false,
+          blod: true
+        },
+        {
+          left: `参与回收站、备份、项目组架构、配额等业务需求的开发；`,
+          right: "",
+          showDot: true
+        },
+        {
+          left: `搭建 mock server 平台并在团队中推广，提高前后端工作效率；`,
+          right: "",
+          showDot: true
+        },
+        {
+          left: `多次参与项目内技术分享活动，与团队共同学习成长。`,
+          right: "",
+          showDot: true
+        },
+        {
+          left: "华为云文档数据库 DDS 控制台 · Angular7 + TinyUI",
           right:
-            '<a href="https://github.com/cosyer/nodeFileUploadDemo" target="_blank">Source</a> + 2018.08',
+            '<a href="https://console.huaweicloud.com/dds/" target="_blank">Link</a>',
+          showDot: false,
+          blod: true
+        },
+        {
+          left: "参与 DDS 功能需求的开发，官网价格计算器的月度版本迭代和上线；",
+          right: "",
+          showDot: true
+        },
+        {
+          left:
+            "基于 ng7 搭建了 Geminidb(多模 NoSQL 数据库)项目结构并完成了 70%业务代码的开发；",
+          right: "",
+          showDot: true
+        },
+        {
+          left:
+            "输出国际化词条转换 excel 工具(重复词检测、excel 解析和生成)，提高了团队的工作效率；",
+          right: "",
+          showDot: true
+        },
+        {
+          left:
+            "基于 Selenium 等工具编写测试代码协助持续集成与自动化测试，保证代码的可靠和安全；",
+          right: "",
+          showDot: true
+        },
+        {
+          left: "封装 axios，对请求头统一拦截处理，减少重复代码，方便调用。",
+          right: "",
+          showDot: true
+        },
+        {
+          left: "家政加 · React-Native + Redux",
+          right: "",
           showDot: false,
           blod: true
         },
         {
           left:
-            "我的第一个真正的项目。个人独自完成，项目基于<em>NodeJS + Express + Postgresql + ejs</em>开发，" +
-            "前后端不分离，上线后进行后期维护及版本迭代。" +
-            "这个IM项目技术实现并不难，但该项目具有普遍性，它能渗透到任何一个项目中，对我意义很大：" +
-            "它是我第一个独立完成的公司项目，让我了解了完整项目的流程，收货颇丰。",
+            "参与 React-Native 构建开发原生 app，封装提取公共组件、处理跨平台兼容性问题；",
+          right: "<a href='http://jzj.bm001.com/' target='_blank'>Link</a>",
+          showDot: true
+        },
+        {
+          left: "负责家政加阿姨管理，组织架构、优惠券促销等功能需求开发；",
           right: "",
           showDot: true
         },
         {
-          left: "基于Python Web的搜题系统 · 爬虫工具 + 搜题系统",
-          right:
-            '<a href="https://gitee.com/stavyan/pre-test" target="_blank">Source</a> 2018.06',
+          left:
+            "开发注册有礼和准点秒杀活动相关页面，并输出通用参数配置，方便运营人员修改。",
+          right: "",
+          showDot: true
+        },
+        {
+          left: "PC 端 e 家政管理系统 · React 全家桶 + iflux + AntDesign",
+          right: "<a href='http://jz.bm001.com/' target='_blank'>Link</a>",
           showDot: false,
           blod: true
         },
         {
           left:
-            "此项目是成人本科**大学课后习题及期末考试推出的一个快速搜题的项目，让使用者在使用专业、题型等限制后快速检索到问题对应的答题。" +
-            "因题库爬取自**大学，所以正确率极高。" +
-            "为了分析用户的使用情况，对用户的搜题时间，搜索次数、用户所在地等信息进行分析，因此更能洞悉用户使用习惯，做好进一步迭代开发和服务工作。",
-          right: "",
-          showDot: true
-        },
-
-        {
-          left: "在线考前辅导 · 微信小程序 + H5",
-          right: "2018.09",
-          showDot: false,
-          blod: true
-        },
-        {
-          left:
-            "此项目主要是针对成考和会从开发的直播+在线做题+资料的小程序+H5的在线教育平台。",
-          right: "",
-          showDot: true
-        }
-      ]
-    },
-    {
-      title: "专业技能",
-      content: [
-        {
-          left:
-            "<b>熟练掌握基本技能。</b>熟悉<em>HTML5</em>、<em>CSS</em>、<em>ES6</em>、<em>VueJS</em>、<em>MpVue</em>、<em>各种UI库的使用</em>等，略懂<em>Canvas</em>、<em>Python的爬虫库</em>。",
-          right: "",
-          showDot: true
-        },
-        {
-          left:
-            "<b>会使用各类工具，简单了解前端工程化。</b>尝试写过<em>Webpack</em>、<em>NPM</em>包。写过简单的前端自动化脚本。经常使用<em>模版引擎 (pug)</em>、<em>Docker</em>、<em>云服务器</em>。",
-          right: "",
-          showDot: true
-        },
-        {
-          left:
-            "<b>了解基本的代码调试、优化、前端安全。</b>使用过性能监测工具，会使用<em>Chrome devTools</em>、<em>Vue.js devtools</em>的基本功能，进行过代码优化。了解常见的前端安全隐患及简单的防备措施。",
-          right: "",
-          showDot: true
-        },
-        {
-          left:
-            "<b>了解后端的开发流程。</b>知道<em>HTTP(S) 协议</em>，配置过<em>Nginx 服务器</em>，有<em>NodeJS</em>和Python Flask的开发经验、发布过<em>npm</em>包。",
-          right: "",
-          showDot: true
-        },
-        {
-          left:
-            "<b>早期有过Java开发Android的项目经验。</b>后在实习、工作过程中，使用<em>Python</em>写过爬虫和一些脚本。曾爬取<em>200 000+</em>的完整题库。脚本主要是批量操作数据库字段、数据较多的Excel和在特定网站对一些网页数据进行操作。",
-          right: "",
-          showDot: true
-        },
-        {
-          left:
-            "<b>简单了解当下热门的框架，了解前端组件化。</b>看过<em>VueJS</em>的源码，了解<em>MV*</em>框架，有VueJS的项目开发经验，正在学习<em>React</em>的基础知识和部分原理。",
-          right: "",
-          showDot: true
-        },
-        {
-          left:
-            "<strong>非技术方面：</strong>喜欢看书（传记/历史类）、喜欢旅行。 曾在大学时期中担任过班长和协会会长，喜欢与人交流，自认为有责任心。<b>对自己日后的发展有较明确的方向。</b>",
-          right: "",
-          showDot: true
-        },
-        {
-          left:
-            "日常开发环境为 MacOS X、 WebStorm、 PyCharm，使用<em>Linux</em>、<em>GitHub</em>、<em>Markdown</em>、 <em>掘金</em>等开发者社区， 重度<em>Google Chrome</em>使用者。",
+            "担任 e 家政 PC 端管理系统的前端开发工作，重视组件封装与模块复用。使用 React 技术栈，利用 Echarts 渲染仪表盘/图表功能，封装 Handsontable 完成工作表、电子表格功能；",
           right: "",
           showDot: true
         }
       ]
     }
-
     // {
     //   title: '奖项证书',
     //   content: [
