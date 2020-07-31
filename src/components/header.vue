@@ -29,8 +29,8 @@ header
 <script>
 /**
  *@des 顶部内容区
- *@author stav 617946852@qq.com
- *@blog https://stavtop.club
+ *@author cosyer 535509852@qq.com
+ *@blog https://mydearest.cn
  *@date 2018/10/9 上午9:25
  */
 import config from "../config.js";

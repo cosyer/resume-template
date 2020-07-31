@@ -348,7 +348,7 @@ const config = {
           blod: true
         },
         {
-          left: "参与 DDS 功能需求的开发，官网价格计算器的月度版本迭代和上线；",
+          left: "参与 DDS 功能需求的开发，官网价格计算器的版本迭代和上线；",
           right: "",
           showDot: true
         },
@@ -453,13 +453,8 @@ const config = {
    * 若为空，则不显示
    * 此logo会在页面大小大于1440px时显示
    */
-  githubLogoLocation: "https://github.com/stavyan/resume-201810",
+  githubLogoLocation: "https://github.com/cosyer/resume-template",
 
-  /**
-   * 是否展示界面最下方 “@ Stavyan” 字样
-   * 如果你认为在个人的页面上显示此条消息不合适，可以通过此方法快速消除
-   * 什么？你 star 没给也好意思注释这一条？？？ :(
-   */
   showAboutInfo: true
 };
 
