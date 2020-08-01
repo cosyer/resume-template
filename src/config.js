@@ -35,7 +35,7 @@ const config = {
     left:
       '<a href="https://github.com/cosyer/resume-template" target="_blank">简历作品链接：https://github.com/cosyer/resume-template</a>',
     right:
-      '<a href="http://dir.mydearest.cn/resume-template" target="_blank">网页版简历：http://dir.mydearest.cn/resume-template</a>'
+      '<a href="http://chenyu.mydearest.cn/" target="_blank">网页版简历：http://chenyu.mydearest.cn/</a>'
   },
   /**
    * 顶部栏

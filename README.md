@@ -7,7 +7,7 @@
 - 全响应式
 - 参数全在配置文件里，易于修改编辑
 
-线上预览： [简历 | 陈宇](http://dir.mydearest.cn/resume-template)
+线上预览： [简历 | 陈宇](http://chenyu.mydearest.cn/)
 
 ### 使用方式
 
