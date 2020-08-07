@@ -32,10 +32,9 @@ const config = {
    * @param {[String]} 需要显示的内容
    */
   footer: {
-    left:
-      '<a href="https://github.com/cosyer/resume-template" target="_blank">简历作品链接：https://github.com/cosyer/resume-template</a>',
+    left: "",
     right:
-      '<a href="http://chenyu.mydearest.cn" target="_blank">网页版简历：http://chenyu.mydearest.cn</a>'
+      '<a href="http://resume.mydearest.cn" target="_blank">其他版本简历：http://resume.mydearest.cn</a>'
   },
   /**
    * 顶部栏
@@ -453,7 +452,7 @@ const config = {
    * 若为空，则不显示
    * 此logo会在页面大小大于1440px时显示
    */
-  githubLogoLocation: "https://github.com/cosyer/resume-template",
+  githubLogoLocation: "https://github.com/cosyer",
 
   showAboutInfo: true
 };
